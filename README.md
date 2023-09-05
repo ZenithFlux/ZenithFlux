@@ -23,32 +23,43 @@ I'm a dedicated enthusiast of AI and Data Science, currently engrossed in variou
 
 # Key Projects 📚✍
 
-## 1. [Realtime News Classification API](https://github.com/ZenithFlux/Realtime_News_Classification) 📰
+## 1. [End-to-End Data Scientist Salary Prediction ML webapp](https://github.com/ZenithFlux/Data-Scientist-Salary-Prediction) 💰
+
+Website Link: https://ds-salary-prediction.streamlit.app/
+
+Predicting the salaries of data scientists using a machine learning model.  
+**Exploratory Data Analysis** and Model Training Report are also included in the website.  
+Webapp also monitors **Data Drift**.
+
+Used full **CI/CD** pipeline for deployment (GitHub Actions).  
+**Docker** container of this app has been deployed on **AWS Elastic Container Service**.
+
+## 2. [Realtime News Classification API](https://github.com/ZenithFlux/Realtime_News_Classification) 📰
 
 Analyzing and classifying news articles into 5 different categories using text classification. 
 
-Wrapped the model in a Flask API which accepts news articles as POST requests and responds with the predicted category of news.
+Wrapped the ML model in a Flask API which accepts news articles as POST requests and responds with the predicted category of news.
 
 This API has been deployed on **AWS BeanStalk**.
 
-## 2. [Movie Colorizer](https://github.com/ZenithFlux/Movie_Colorizer) 🎥
+## 3. [Movie Colorizer](https://github.com/ZenithFlux/Movie_Colorizer) 🎥
 
 This program can fill color in B&W movies and images using deep learning.  
 Implemented using **UNet-based Generative Adversarial Network**.  
-Achived a final *SSIM score of 0.873*.
+Achived a final ***SSIM score of 0.873***.
 
 See an image of a Pizza🍕 colored using the model:
 
 ![Grayscale](https://i.ibb.co/jT87x1K/gray4.jpg)&nbsp;&nbsp;
 ![Color](https://i.ibb.co/p4Wh5bn/coloured4.jpg)
 
-## 3. [License Plate Detection](https://github.com/ZenithFlux/License_Plate_Detector) 🚗🔢
+## 4. [License Plate Detection](https://github.com/ZenithFlux/License_Plate_Detector) 🚗🔢
 
-This License plate detector can detect and read license plates, from images as well as live using camera. The object detection is done using **YOLOv5** and Optical Character Recognition using 'EasyOCR' python library.
+This License plate detector can detect and read license plates, from images as well as live using camera. The object detection is done using **YOLOv5** and **Optical Character Recognition** using 'EasyOCR' python library.
 
 <img src="https://i.ibb.co/ncqmppF/detect5.jpg" width="300" />
 
-### ⚡ Checkout my other [repositories](https://github.com/ZenithFlux?tab=repositories) for more projects...
+### ⚡ Checkout my [other repositories](https://github.com/ZenithFlux?tab=repositories) for more projects...
 
 <br />
 
