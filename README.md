@@ -1,4 +1,4 @@
-# Hi👋, I'm Chaitanya Lakhchaura 🤖
+# Hi👋, I'm Chaitanya Lakhchaura ☘️
 
 I'm a dedicated enthusiast of AI and Data Science, currently engrossed in various AI/ML projects. These hands-on experiences have been instrumental in shaping my journey so far. As I continue to work on more projects, my understanding in this field deepens, and my passion grows.
 
@@ -24,26 +24,33 @@ I'm a dedicated enthusiast of AI and Data Science, currently engrossed in variou
 
 ## Key Projects 📚✍
 
-### 1. [End-to-End Data Scientist Salary Prediction ML webapp](https://github.com/ZenithFlux/Data-Scientist-Salary-Prediction) 💰
+
+### 1. [E2E-CVTON: A 2D Virtual Try-on Network](https://github.com/VTON-Project/E2E-CVTON) 👘
+
+E2E-CVTON is an end-to-end system which can generate a cloth try-on image, provided an image of a person and of a cloth. This system is implemented as a FastAPI server which is used to interact with the AI model over HTTP.
+
+| Person | Cloth | Try-on image |
+| :----: | :---: | :---------: |
+| <img src="https://i.ibb.co/DkmYTTt/3.jpg" alt="Person 3" height="150"> | <img src="https://i.ibb.co/JFwLGr2/3.jpg" alt="Person 1" height="150"> | <img src="https://i.ibb.co/YjkBrvt/3.jpg" alt="Person 1" height="150"> |
+
+### 2. [WordPress AI Assistant Plugin](https://github.com/ZenithFlux/wordpress-ai-assistant) 🤖
+
+This is a WordPress plugin which adds an AI chatbot to your website. The AI chatbot uses Retrieval Augmented Generation (RAG) to fetch the contents of your website and respond based on it, which means users can ask the assistant anything about the contents of your website and the chatbot will be able to answer them.
+
+<img src="https://i.ibb.co/vDwffGq/frontend.png" title="Assistant Frontend" alt="frontend.png">
+
+### 3. [End-to-End Data Scientist Salary Prediction Webapp](https://github.com/ZenithFlux/Data-Scientist-Salary-Prediction) 💰
 
 Website Link: https://ds-salary-prediction.streamlit.app/
 
-Predicting the salaries of data scientists using a machine learning model.  
-**Exploratory Data Analysis** and Model Training Report are also included in the website.  
-Webapp also monitors **Data Drift**.
+This Webapp is used for predicting the salaries of data scientists using a machine learning model.  
+**Exploratory Data Analysis** and Model Training Report are also included on the website.  
+The Webapp also monitors **Data Drift** from the original data.
 
 Used full **CI/CD** pipeline for deployment (GitHub Actions).  
-**Docker** container of this app has been deployed on **AWS Elastic Container Service**.
+A **Docker** container of this app had been deployed on **AWS Elastic Container Service**.
 
-### 2. [Realtime News Classification API](https://github.com/ZenithFlux/Realtime_News_Classification) 📰
-
-Analyzing and classifying news articles into 5 different categories using text classification. 
-
-Wrapped the ML model in a Flask API which accepts news articles as POST requests and responds with the predicted category of news.
-
-This API has been deployed on **AWS BeanStalk**.
-
-### 3. [Movie Colorizer](https://github.com/ZenithFlux/Movie_Colorizer) 🎥
+### 4. [Movie Colorizer](https://github.com/ZenithFlux/Movie_Colorizer) 🎥
 
 This program can fill color in B&W movies and images using deep learning.  
 Implemented using **UNet-based Generative Adversarial Network**.  
@@ -53,12 +60,6 @@ See an image of a Pizza🍕 colored using the model:
 
 ![Grayscale](https://i.ibb.co/jT87x1K/gray4.jpg)&nbsp;&nbsp;
 ![Color](https://i.ibb.co/p4Wh5bn/coloured4.jpg)
-
-### 4. [License Plate Detection](https://github.com/ZenithFlux/License_Plate_Detector) 🚗🔢
-
-This License plate detector can detect and read license plates, from images as well as live using camera. The object detection is done using **YOLOv5** and **Optical Character Recognition** using 'EasyOCR' python library.
-
-<img src="https://i.ibb.co/ncqmppF/detect5.jpg" width="300" />
 
 #### ⚡ Checkout my [other repositories](https://github.com/ZenithFlux?tab=repositories) for more projects...
 
